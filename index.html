@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisola Agência | Criação de Sites Profissionais</title>
+    <meta name="description" content="Criação de sites institucionais, landing pages e lojas virtuais com design responsivo, performance, SEO técnico e integração com WhatsApp.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0B0F17">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Brisola Agência">
+    <meta property="og:title" content="Brisola Agência | Criação de Sites Profissionais">
+    <meta property="og:description" content="Sites institucionais, landing pages e lojas virtuais pensados para fortalecer sua presença digital e facilitar novas oportunidades comerciais.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Brisola Agência | Criação de Sites Profissionais">
+    <meta name="twitter:description" content="Sites profissionais com design responsivo, performance, SEO técnico e integração com WhatsApp.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Brisola Agência",
+      "description": "Criação de sites institucionais, landing pages e lojas virtuais.",
+      "telephone": "+55 27 99276-8081",
+      "sameAs": ["https://www.instagram.com/brisolaagencia/"]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            coral: '#FF4D38',
+                            coralHover: '#E03B26',
+                            gold: '#D9A036',
+                            goldHover: '#B88228',
+                            dark: '#0B0F17',
+                            card: '#131A26',
+                            border: '#232D3F',
+                            textMuted: '#94A3B8'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            background-color: #0B0F17;
+            color: #F8FAFC;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .bg-grid-pattern {
+            background-image: radial-gradient(rgba(255, 77, 56, 0.12) 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+
+        .glass-card {
+            background: rgba(19, 26, 38, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .glass-card:hover {
+            border-color: rgba(255, 77, 56, 0.4);
+            box-shadow: 0 10px 30px -10px rgba(255, 77, 56, 0.2);
+        }
+
+        .gradient-text-coral {
+            background: linear-gradient(135deg, #FF4D38 0%, #FF8A00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gradient-text-gold {
+            background: linear-gradient(135deg, #FACC15 0%, #D9A036 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0B0F17;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #232D3F;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #FF4D38;
+        }
+
+        /* Mobile Frame simulator transition */
+        .preview-mode-desktop {
+            width: 100%;
+            height: 100%;
+            max-width: 100%;
+        }
+        .preview-mode-tablet {
+            width: 768px;
+            height: 100%;
+            max-width: 100%;
+            border-radius: 16px;
+            border: 12px solid #1e293b;
+        }
+        .preview-mode-mobile {
+            width: 385px;
+            height: 100%;
+            max-width: 100%;
+            border-radius: 28px;
+            border: 10px solid #1e293b;
+        }
+    </style>
+</head>
+<body class="antialiased text-slate-100">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 glass-card border-b border-brand-border/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <!-- Logo Vector Graphic -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="relative flex items-center justify-center">
+                    <svg class="w-10 h-10 transition-transform duration-300 group-hover:scale-105" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M 25 10 L 65 10 C 78 10 88 18 88 31 C 88 42 80 48 70 50 L 38 50 L 25 10 Z" fill="#FF4D38" />
+                        <path d="M 25 58 L 58 58 C 72 58 88 65 88 78 C 88 90 75 92 62 92 L 25 92 L 25 58 Z" fill="#FF4D38" />
+                        <path d="M 20 54 L 68 18 L 74 24 L 26 60 Z" fill="#0B0F17" />
+                    </svg>
+                </div>
+                <div class="flex flex-col leading-none">
+                    <span class="font-extrabold text-xl tracking-wider text-white">BRISOLA</span>
+                    <span class="text-[10px] font-bold tracking-[0.3em] text-brand-gold uppercase mt-0.5">AGÊNCIA</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-300">
+                <a href="#home" class="hover:text-brand-coral transition-colors">Início</a>
+                <a href="#portfolio" class="hover:text-brand-coral transition-colors">Portfólio</a>
+                <a href="#servicos" class="hover:text-brand-coral transition-colors">Serviços</a>
+                <a href="#calculadora" class="hover:text-brand-coral transition-colors">Monte seu Projeto</a>
+                <a href="#sobre" class="hover:text-brand-coral transition-colors">Sobre Nós</a>
+                <a href="#faq" class="hover:text-brand-coral transition-colors">FAQ</a>
+            </nav>
+
+            <!-- Call To Action Button -->
+            <div class="hidden md:flex items-center gap-4">
+                <a href="https://wa.me/5527992768081?text=Olá!%20Vim%20pelo%20site%20da%20Brisola%20Agência%20e%20gostaria%20de%20um%20orçamento." 
+                   target="_blank" rel="noopener noreferrer"
+                   class="bg-brand-coral hover:bg-brand-coralHover text-white px-5 py-2.5 rounded-full font-semibold text-sm transition-all shadow-lg shadow-brand-coral/20 flex items-center gap-2 hover:scale-105 active:scale-95">
+                    <i class="fa-brands font-semibold fa-whatsapp text-lg"></i>
+                    <span>Falar no WhatsApp</span>
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button id="mobile-menu-btn" type="button" aria-label="Abrir menu de navegação" aria-controls="mobile-menu" aria-expanded="false" class="md:hidden text-slate-300 hover:text-white text-2xl focus:outline-none p-2">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-dark/95 border-b border-brand-border px-6 py-6 space-y-4">
+            <a href="#home" class="mobile-nav-link block text-slate-200 hover:text-brand-coral font-medium py-1">Início</a>
+            <a href="#portfolio" class="mobile-nav-link block text-slate-200 hover:text-brand-coral font-medium py-1">Portfólio de Sites</a>
+            <a href="#servicos" class="mobile-nav-link block text-slate-200 hover:text-brand-coral font-medium py-1">Nossos Serviços</a>
+            <a href="#calculadora" class="mobile-nav-link block text-slate-200 hover:text-brand-coral font-medium py-1">Monte seu Projeto</a>
+            <a href="#sobre" class="mobile-nav-link block text-slate-200 hover:text-brand-coral font-medium py-1">Sobre Nós</a>
+            <a href="#faq" class="mobile-nav-link block text-slate-200 hover:text-brand-coral font-medium py-1">Perguntas Frequentes</a>
+            <div class="pt-4 border-t border-brand-border">
+                <a href="https://wa.me/5527992768081?text=Olá!%20Vim%20pelo%20site%20da%20Brisola%20Agência." 
+                   target="_blank" rel="noopener noreferrer" 
+                   class="w-full bg-brand-coral hover:bg-brand-coralHover text-white py-3 rounded-xl font-semibold text-center flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Solicitar Orçamento</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="relative pt-32 pb-20 md:pt-44 md:pb-32 bg-grid-pattern overflow-hidden">
+        <!-- Radial Light Effect Glows -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-coral/10 rounded-full blur-[140px] pointer-events-none"></div>
+        <div class="absolute top-1/3 right-10 w-[300px] h-[300px] bg-brand-gold/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto">
+                
+                <!-- Badge -->
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card border-brand-coral/30 text-xs font-semibold uppercase tracking-wider text-brand-coral mb-6">
+                    <span class="w-2 h-2 rounded-full bg-brand-coral animate-ping"></span>
+                    <span>Criação de Sites de Alta Performance</span>
+                </div>
+
+                <!-- Headline -->
+                <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight mb-6">
+                    Criamos sites modernos que <span class="gradient-text-coral">geram oportunidades</span> e destacam sua <span class="gradient-text-gold">marca</span>.
+                </h1>
+
+                <!-- Subheadline -->
+                <p class="text-base sm:text-xl text-slate-300 font-normal leading-relaxed mb-8">
+                    Transformamos sua ideia em uma presença digital profissional, com sites responsivos, rápidos e caminhos claros para o cliente entrar em contato com sua empresa.
+                </p>
+
+                <!-- Action Buttons -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="#portfolio" class="w-full sm:w-auto bg-brand-coral hover:bg-brand-coralHover text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg shadow-brand-coral/25 flex items-center justify-center gap-3 hover:-translate-y-1">
+                        <span>Conhecer Nossos Sites</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#calculadora" class="w-full sm:w-auto glass-card hover:bg-slate-800/80 text-white px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-3 border border-brand-border hover:-translate-y-1">
+                        <i class="fa-solid fa-calculator text-brand-gold"></i>
+                        <span>Montar meu Projeto</span>
+                    </a>
+                </div>
+
+                <!-- Metrics / Proof Bar -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 pt-12 border-t border-brand-border/60">
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white mb-1">RESPONSIVO</div>
+                        <div class="text-xs sm:text-sm text-slate-400">Experiência em qualquer tela</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-brand-coral mb-1">SEO</div>
+                        <div class="text-xs sm:text-sm text-slate-400">Estrutura técnica preparada</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-brand-gold mb-1">WHATSAPP</div>
+                        <div class="text-xs sm:text-sm text-slate-400">Integração direta</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white mb-1">PERFORMANCE</div>
+                        <div class="text-xs sm:text-sm text-slate-400">Experiência otimizada</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SHOWCASE SECTION -->
+    <section id="portfolio" class="py-24 bg-brand-dark/60 border-t border-brand-border/40 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="text-brand-coral font-bold text-sm tracking-wider uppercase">Nosso Portfólio</span>
+                    <h2 class="text-3xl sm:text-5xl font-extrabold text-white mt-2">Sites que Já Desenvolvemos</h2>
+                </div>
+                <p class="text-slate-400 max-w-md mt-4 md:mt-0 text-sm">
+                    Navegue pelos projetos da <strong class="text-white">Brisola Agência</strong>. Clique para abrir o <strong>Preview Interativo</strong> em tela cheia e simular a navegação em celulares ou computadores!
+                </p>
+            </div>
+
+            <!-- Filter Category Buttons -->
+            <div class="flex flex-wrap items-center gap-2 mb-10" id="portfolio-filters">
+                <button data-filter="all" class="filter-btn active bg-brand-coral text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all shadow-md">
+                    Todos os Projetos
+                </button>
+                <button data-filter="landing" class="filter-btn glass-card text-slate-300 hover:text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all">
+                    Landing Pages
+                </button>
+                <button data-filter="ecommerce" class="filter-btn glass-card text-slate-300 hover:text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all">
+                    E-commerce
+                </button>
+                <button data-filter="institucional" class="filter-btn glass-card text-slate-300 hover:text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all">
+                    Institucionais
+                </button>
+                <button data-filter="webapp" class="filter-btn glass-card text-slate-300 hover:text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all">
+                    Sistemas / Web Apps
+                </button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-grid">
+                
+                <!-- Project Card 1: Clínica Vitalis -->
+                <div class="project-card glass-card rounded-2xl overflow-hidden group transition-all duration-300 flex flex-col" data-category="institucional">
+                    <div class="relative overflow-hidden aspect-video bg-slate-800">
+                        <div class="bg-slate-900 px-4 py-2 flex items-center gap-1.5 border-b border-slate-700/60 z-10 relative">
+                            <span class="w-2.5 h-2.5 rounded-full bg-red-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-yellow-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-green-500 inline-block"></span>
+                            <span class="text-[10px] text-slate-400 ml-2 font-mono truncate">https://clinicavitalis.com.br</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80" loading="lazy" decoding="async" alt="Clínica Vitalis" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-brand-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-3 p-4">
+                            <button onclick="openPreviewModal(0)" class="bg-brand-coral text-white px-4 py-2.5 rounded-xl text-sm font-bold flex items-center gap-2 shadow-lg hover:bg-brand-coralHover transition-colors">
+                                <i class="fa-solid fa-eye"></i> Visualizar Preview
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-2">
+                                <span class="text-xs font-bold text-brand-gold uppercase tracking-wider">Site Institucional</span>
+                                <span class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 font-medium">Saúde & Médicos</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-coral transition-colors">Clínica Vitalis</h3>
+                            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                                Portal médico responsivo com agendamento online de consultas via WhatsApp e mapa interativo.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-brand-border/50 flex items-center justify-between">
+                            <button onclick="openPreviewModal(0)" class="text-xs font-semibold text-brand-coral hover:underline flex items-center gap-1">
+                                Testing Preview <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <a href="https://example.com" target="_blank" class="text-xs text-slate-400 hover:text-white flex items-center gap-1">
+                                Demo Externa <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: Luxe Joias -->
+                <div class="project-card glass-card rounded-2xl overflow-hidden group transition-all duration-300 flex flex-col" data-category="ecommerce">
+                    <div class="relative overflow-hidden aspect-video bg-slate-800">
+                        <div class="bg-slate-900 px-4 py-2 flex items-center gap-1.5 border-b border-slate-700/60 z-10 relative">
+                            <span class="w-2.5 h-2.5 rounded-full bg-red-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-yellow-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-green-500 inline-block"></span>
+                            <span class="text-[10px] text-slate-400 ml-2 font-mono truncate">https://luxejoias.com.br</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80" loading="lazy" decoding="async" alt="Luxe Joias E-commerce" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-brand-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-3 p-4">
+                            <button onclick="openPreviewModal(1)" class="bg-brand-coral text-white px-4 py-2.5 rounded-xl text-sm font-bold flex items-center gap-2 shadow-lg hover:bg-brand-coralHover transition-colors">
+                                <i class="fa-solid fa-eye"></i> Visualizar Preview
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-2">
+                                <span class="text-xs font-bold text-brand-gold uppercase tracking-wider">E-commerce Premium</span>
+                                <span class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 font-medium">Moda & Acessórios</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-coral transition-colors">Luxe Joias Elegance</h3>
+                            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                                Loja virtual de alto padrão com checkout rápido em 1 clique, pagamento Pix e integração com Correios.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-brand-border/50 flex items-center justify-between">
+                            <button onclick="openPreviewModal(1)" class="text-xs font-semibold text-brand-coral hover:underline flex items-center gap-1">
+                                Testing Preview <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <a href="https://example.com" target="_blank" class="text-xs text-slate-400 hover:text-white flex items-center gap-1">
+                                Demo Externa <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3: Nexus SaaS -->
+                <div class="project-card glass-card rounded-2xl overflow-hidden group transition-all duration-300 flex flex-col" data-category="landing">
+                    <div class="relative overflow-hidden aspect-video bg-slate-800">
+                        <div class="bg-slate-900 px-4 py-2 flex items-center gap-1.5 border-b border-slate-700/60 z-10 relative">
+                            <span class="w-2.5 h-2.5 rounded-full bg-red-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-yellow-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-green-500 inline-block"></span>
+                            <span class="text-[10px] text-slate-400 ml-2 font-mono truncate">https://nexus-saas.com.br</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" loading="lazy" decoding="async" alt="Nexus SaaS Landing Page" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-brand-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-3 p-4">
+                            <button onclick="openPreviewModal(2)" class="bg-brand-coral text-white px-4 py-2.5 rounded-xl text-sm font-bold flex items-center gap-2 shadow-lg hover:bg-brand-coralHover transition-colors">
+                                <i class="fa-solid fa-eye"></i> Visualizar Preview
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-2">
+                                <span class="text-xs font-bold text-brand-gold uppercase tracking-wider">Landing Page B2B</span>
+                                <span class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 font-medium">Tecnologia</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-coral transition-colors">Nexus CRM Software</h3>
+                            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                                Landing page de conversão para produto digital, com tabela comparativa de preços e captura de leads.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-brand-border/50 flex items-center justify-between">
+                            <button onclick="openPreviewModal(2)" class="text-xs font-semibold text-brand-coral hover:underline flex items-center gap-1">
+                                Testing Preview <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <a href="https://example.com" target="_blank" class="text-xs text-slate-400 hover:text-white flex items-center gap-1">
+                                Demo Externa <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 4: Oriente Advocacia -->
+                <div class="project-card glass-card rounded-2xl overflow-hidden group transition-all duration-300 flex flex-col" data-category="institucional">
+                    <div class="relative overflow-hidden aspect-video bg-slate-800">
+                        <div class="bg-slate-900 px-4 py-2 flex items-center gap-1.5 border-b border-slate-700/60 z-10 relative">
+                            <span class="w-2.5 h-2.5 rounded-full bg-red-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-yellow-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-green-500 inline-block"></span>
+                            <span class="text-[10px] text-slate-400 ml-2 font-mono truncate">https://orienteadvocacia.com.br</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" loading="lazy" decoding="async" alt="Oriente Advocacia" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-brand-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-3 p-4">
+                            <button onclick="openPreviewModal(3)" class="bg-brand-coral text-white px-4 py-2.5 rounded-xl text-sm font-bold flex items-center gap-2 shadow-lg hover:bg-brand-coralHover transition-colors">
+                                <i class="fa-solid fa-eye"></i> Visualizar Preview
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-2">
+                                <span class="text-xs font-bold text-brand-gold uppercase tracking-wider">Site Corporativo</span>
+                                <span class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 font-medium">Direito</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-coral transition-colors">Oriente Advocacia</h3>
+                            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                                Design sobriedade e luxo focado em transmitir autoridade jurídica, com artigos e formulário LGPD.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-brand-border/50 flex items-center justify-between">
+                            <button onclick="openPreviewModal(3)" class="text-xs font-semibold text-brand-coral hover:underline flex items-center gap-1">
+                                Testing Preview <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <a href="https://example.com" target="_blank" class="text-xs text-slate-400 hover:text-white flex items-center gap-1">
+                                Demo Externa <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 5: Bistrô Sabor Gourmet -->
+                <div class="project-card glass-card rounded-2xl overflow-hidden group transition-all duration-300 flex flex-col" data-category="landing">
+                    <div class="relative overflow-hidden aspect-video bg-slate-800">
+                        <div class="bg-slate-900 px-4 py-2 flex items-center gap-1.5 border-b border-slate-700/60 z-10 relative">
+                            <span class="w-2.5 h-2.5 rounded-full bg-red-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-yellow-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-green-500 inline-block"></span>
+                            <span class="text-[10px] text-slate-400 ml-2 font-mono truncate">https://saborgourmet.com.br</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" loading="lazy" decoding="async" alt="Bistrô Sabor Gourmet" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-brand-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-3 p-4">
+                            <button onclick="openPreviewModal(4)" class="bg-brand-coral text-white px-4 py-2.5 rounded-xl text-sm font-bold flex items-center gap-2 shadow-lg hover:bg-brand-coralHover transition-colors">
+                                <i class="fa-solid fa-eye"></i> Visualizar Preview
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-2">
+                                <span class="text-xs font-bold text-brand-gold uppercase tracking-wider">Landing Page + Cardápio</span>
+                                <span class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 font-medium">Gastronomia</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-coral transition-colors">Bistrô Sabor Gourmet</h3>
+                            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                                Site interativo com cardápio digital via QR Code e reserva de mesas integrada ao WhatsApp.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-brand-border/50 flex items-center justify-between">
+                            <button onclick="openPreviewModal(4)" class="text-xs font-semibold text-brand-coral hover:underline flex items-center gap-1">
+                                Testing Preview <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <a href="https://example.com" target="_blank" class="text-xs text-slate-400 hover:text-white flex items-center gap-1">
+                                Demo Externa <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 6: FitPulse Dashboard -->
+                <div class="project-card glass-card rounded-2xl overflow-hidden group transition-all duration-300 flex flex-col" data-category="webapp">
+                    <div class="relative overflow-hidden aspect-video bg-slate-800">
+                        <div class="bg-slate-900 px-4 py-2 flex items-center gap-1.5 border-b border-slate-700/60 z-10 relative">
+                            <span class="w-2.5 h-2.5 rounded-full bg-red-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-yellow-500 inline-block"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-green-500 inline-block"></span>
+                            <span class="text-[10px] text-slate-400 ml-2 font-mono truncate">https://fitpulse-dash.com.br</span>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80" loading="lazy" decoding="async" alt="FitPulse Web App" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-brand-dark/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-3 p-4">
+                            <button onclick="openPreviewModal(5)" class="bg-brand-coral text-white px-4 py-2.5 rounded-xl text-sm font-bold flex items-center gap-2 shadow-lg hover:bg-brand-coralHover transition-colors">
+                                <i class="fa-solid fa-eye"></i> Visualizar Preview
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between gap-2 mb-2">
+                                <span class="text-xs font-bold text-brand-gold uppercase tracking-wider">Web App & Painel</span>
+                                <span class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 font-medium">Fitness</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-coral transition-colors">FitPulse Dashboard</h3>
+                            <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                                Sistema de gestão para personal trainers e alunos com gráficos de evolução física.
+                            </p>
+                        </div>
+                        <div class="pt-4 border-t border-brand-border/50 flex items-center justify-between">
+                            <button onclick="openPreviewModal(5)" class="text-xs font-semibold text-brand-coral hover:underline flex items-center gap-1">
+                                Testing Preview <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <a href="https://example.com" target="_blank" class="text-xs text-slate-400 hover:text-white flex items-center gap-1">
+                                Demo Externa <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- INTERACTIVE PREVIEW MODAL -->
+    <div id="preview-modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-title" class="fixed inset-0 z-50 hidden bg-slate-950/90 backdrop-blur-md flex items-center justify-center p-2 sm:p-6 transition-opacity duration-300">
+        <div class="bg-brand-dark border border-brand-border rounded-2xl w-full max-w-6xl h-[92vh] flex flex-col overflow-hidden shadow-2xl">
+            
+            <!-- Modal Header Toolbar -->
+            <div class="bg-slate-900 border-b border-slate-800 px-4 py-3 flex items-center justify-between gap-4">
+                <div class="flex items-center gap-3">
+                    <button onclick="closePreviewModal()" type="button" aria-label="Fechar preview" class="w-3.5 h-3.5 rounded-full bg-red-500 hover:bg-red-600 transition-colors focus:outline-none" title="Fechar"></button>
+                    <span class="w-3.5 h-3.5 rounded-full bg-yellow-500"></span>
+                    <span class="w-3.5 h-3.5 rounded-full bg-green-500"></span>
+                    <h3 id="modal-project-title" class="text-white font-bold text-sm ml-2 hidden sm:block">Preview do Projeto</h3>
+                </div>
+
+                <!-- Device Mode Switcher Buttons -->
+                <div class="flex items-center bg-slate-800 p-1 rounded-lg border border-slate-700 text-xs">
+                    <button id="device-desktop" type="button" aria-label="Visualizar em desktop" onclick="setDeviceMode('desktop')" class="px-3 py-1.5 rounded-md text-white bg-brand-coral font-medium flex items-center gap-1.5 transition-all">
+                        <i class="fa-solid fa-desktop"></i>
+                        <span class="hidden sm:inline">Desktop</span>
+                    </button>
+                    <button id="device-tablet" type="button" aria-label="Visualizar em tablet" onclick="setDeviceMode('tablet')" class="px-3 py-1.5 rounded-md text-slate-400 hover:text-white font-medium flex items-center gap-1.5 transition-all">
+                        <i class="fa-solid fa-tablet-screen-button"></i>
+                        <span class="hidden sm:inline">Tablet</span>
+                    </button>
+                    <button id="device-mobile" type="button" aria-label="Visualizar em celular" onclick="setDeviceMode('mobile')" class="px-3 py-1.5 rounded-md text-slate-400 hover:text-white font-medium flex items-center gap-1.5 transition-all">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <span class="hidden sm:inline">Mobile</span>
+                    </button>
+                </div>
+
+                <!-- Close & External Link -->
+                <div class="flex items-center gap-3">
+                    <a id="modal-external-link" href="#" target="_blank" class="bg-slate-800 hover:bg-slate-700 text-slate-200 px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 border border-slate-700">
+                        <span>Acessar Site</span>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                    <button onclick="closePreviewModal()" type="button" aria-label="Fechar preview" class="text-slate-400 hover:text-white text-xl p-1">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Modal Content Simulation Viewport -->
+            <div class="flex-1 bg-slate-950 p-4 overflow-auto flex justify-center items-center relative">
+                
+                <div id="preview-viewport" class="preview-mode-desktop transition-all duration-300 bg-slate-900 rounded-lg shadow-2xl overflow-hidden flex flex-col">
+                    
+                    <!-- Simulated Site Interactive Header -->
+                    <div id="sim-nav" class="bg-slate-900 text-white px-6 py-4 flex items-center justify-between border-b border-slate-800">
+                        <div class="flex items-center gap-2 font-bold text-lg">
+                            <span class="w-3 h-3 rounded-full bg-brand-coral"></span>
+                            <span id="sim-brand-name">Nome do Cliente</span>
+                        </div>
+                        <div class="flex gap-4 text-xs font-medium text-slate-300">
+                            <span class="hover:text-brand-coral cursor-pointer">Início</span>
+                            <span class="hover:text-brand-coral cursor-pointer">Serviços</span>
+                            <span class="hover:text-brand-coral cursor-pointer">Contato</span>
+                        </div>
+                    </div>
+
+                    <!-- Simulated Website Dynamic Canvas Body -->
+                    <div class="flex-1 overflow-y-auto bg-slate-950 text-slate-100 p-6 sm:p-10 space-y-8" id="sim-content">
+                        <!-- Dynamic website content rendered here by JS -->
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Modal Footer Information -->
+            <div class="bg-slate-900 border-t border-slate-800 px-6 py-3 flex items-center justify-between text-xs text-slate-400">
+                <span id="modal-category-tag">Categoria: E-commerce</span>
+                <span>Desenvolvido com excelência por <strong class="text-brand-coral">Brisola Agência</strong></span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <section id="servicos" class="py-24 relative bg-grid-pattern">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-brand-gold font-bold text-sm tracking-wider uppercase">O Que Oferecemos</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold text-white mt-2">Soluções Digitais para seu Negócio</h2>
+                <p class="text-slate-400 mt-4 text-base">
+                    Estruturas digitais pensadas para aumentar clareza, confiança e facilitar o próximo passo do seu cliente.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Service 1 -->
+                <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-2 transition-all">
+                    <div class="w-14 h-14 rounded-xl bg-brand-coral/10 flex items-center justify-center text-brand-coral text-2xl mb-6 group-hover:bg-brand-coral group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Landing Pages Estratégicas</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Páginas estratégicas com mensagem clara, boa experiência e CTAs pensados para transformar tráfego em oportunidades comerciais.
+                    </p>
+                    <ul class="text-xs text-slate-300 space-y-2.5 font-medium">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-coral"></i> Velocidade de carregamento ultrarrápida</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-coral"></i> CTAs direcionados ao WhatsApp</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-coral"></i> Design responsivo e persuasivo</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-2 transition-all border-brand-coral/30">
+                    <div class="w-14 h-14 rounded-xl bg-brand-gold/10 flex items-center justify-center text-brand-gold text-2xl mb-6 group-hover:bg-brand-gold group-hover:text-slate-950 transition-colors">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Sites Institucionais</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Uma presença digital profissional para apresentar sua empresa, seus serviços e facilitar o contato com potenciais clientes.
+                    </p>
+                    <ul class="text-xs text-slate-300 space-y-2.5 font-medium">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold"></i> Design Exclusivo Sob Medida</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold"></i> Otimizado para Busca no Google (SEO)</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold"></i> Painel de Edição Simples</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:-translate-y-2 transition-all">
+                    <div class="w-14 h-14 rounded-xl bg-brand-coral/10 flex items-center justify-center text-brand-coral text-2xl mb-6 group-hover:bg-brand-coral group-hover:text-white transition-colors">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Lojas Virtuais (E-commerce)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Venda seus produtos 24 horas por dia com um checkout intuitivo, seguro e integrado às principais ferramentas.
+                    </p>
+                    <ul class="text-xs text-slate-300 space-y-2.5 font-medium">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-coral"></i> Pagamento por Pix, Cartão e Boleto</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-coral"></i> Cálculo de Frete com Correios</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-coral"></i> Gestão simples de produtos e estoque</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- BUDGET ESTIMATOR CALCULATOR -->
+    <section id="calculadora" class="py-24 bg-brand-dark/90 relative border-t border-brand-border/50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-brand-coral font-bold text-sm tracking-wider uppercase">Monte seu Projeto</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">Monte a Configuração do Seu Novo Site</h2>
+                <p class="text-slate-400 text-sm mt-2">
+                    Selecione o tipo de site e os recursos que você precisa. Depois, consulte os valores da configuração pelo WhatsApp.
+                </p>
+            </div>
+
+            <div class="glass-card p-6 sm:p-10 rounded-3xl border border-brand-border shadow-2xl">
+                
+                <form id="calc-form" class="space-y-8">
+                    
+                    <!-- Step 1: Type of Website -->
+                    <div>
+                        <label class="block text-sm font-bold text-slate-200 mb-4">1. Que tipo de site você precisa para sua empresa?</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                            <label class="calc-option cursor-pointer p-4 rounded-xl bg-slate-900 border border-slate-700 flex flex-col items-center text-center transition-all hover:border-brand-coral">
+                                <input type="radio" name="site_type" value="Landing Page" checked class="hidden">
+                                <i class="fa-solid fa-rocket text-2xl text-brand-coral mb-2"></i>
+                                <span class="font-bold text-sm text-white">Landing Page</span>
+                                <span class="text-xs text-slate-400 mt-1">Página estratégica de alta conversão</span>
+                            </label>
+
+                            <label class="calc-option cursor-pointer p-4 rounded-xl bg-slate-900 border border-slate-700 flex flex-col items-center text-center transition-all hover:border-brand-coral">
+                                <input type="radio" name="site_type" value="Site Institucional" class="hidden">
+                                <i class="fa-solid fa-building text-2xl text-brand-gold mb-2"></i>
+                                <span class="font-bold text-sm text-white">Site Institucional</span>
+                                <span class="text-xs text-slate-400 mt-1">Multi-páginas para empresas e serviços</span>
+                            </label>
+
+                            <label class="calc-option cursor-pointer p-4 rounded-xl bg-slate-900 border border-slate-700 flex flex-col items-center text-center transition-all hover:border-brand-coral">
+                                <input type="radio" name="site_type" value="Loja Virtual" class="hidden">
+                                <i class="fa-solid fa-bag-shopping text-2xl text-brand-coral mb-2"></i>
+                                <span class="font-bold text-sm text-white">Loja Virtual</span>
+                                <span class="text-xs text-slate-400 mt-1">E-commerce completo com pagamentos</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Extras & Features -->
+                    <div>
+                        <label class="block text-sm font-bold text-slate-200 mb-4">2. Recursos e Adicionais Opcionais:</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <label class="cursor-pointer p-3.5 rounded-xl bg-slate-900 border border-slate-800 flex items-center gap-3 text-sm transition-all hover:border-slate-600">
+                                <input type="checkbox" name="extra" value="WhatsApp Direto & Chat" checked class="w-4 h-4 accent-brand-coral rounded">
+                                <span class="text-slate-200">Botão de WhatsApp Direto</span>
+                            </label>
+
+                            <label class="cursor-pointer p-3.5 rounded-xl bg-slate-900 border border-slate-800 flex items-center gap-3 text-sm transition-all hover:border-slate-600">
+                                <input type="checkbox" name="extra" value="Blog de Conteúdo" class="w-4 h-4 accent-brand-coral rounded">
+                                <span class="text-slate-200">Área de Blog / Artigos</span>
+                            </label>
+
+                            <label class="cursor-pointer p-3.5 rounded-xl bg-slate-900 border border-slate-800 flex items-center gap-3 text-sm transition-all hover:border-slate-600">
+                                <input type="checkbox" name="extra" value="Otimização SEO Google" class="w-4 h-4 accent-brand-coral rounded">
+                                <span class="text-slate-200">Otimização SEO para o Google</span>
+                            </label>
+
+                            <label class="cursor-pointer p-3.5 rounded-xl bg-slate-900 border border-slate-800 flex items-center gap-3 text-sm transition-all hover:border-slate-600">
+                                <input type="checkbox" name="extra" value="Multi-idioma (Inglês/Espanhol)" class="w-4 h-4 accent-brand-coral rounded">
+                                <span class="text-slate-200">Suporte a Idiomas Adicionais</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Estimated Price Banner & Send CTA -->
+                    <div class="pt-6 border-t border-brand-border/60 flex flex-col md:flex-row items-center justify-between gap-6 bg-slate-950/60 p-6 rounded-2xl">
+                        <div>
+                            <span class="text-xs uppercase font-bold text-slate-400">Configuração selecionada</span>
+                            <div class="mt-1">
+                                <span class="text-xl sm:text-2xl font-extrabold text-white">Receba os valores desta configuração</span>
+                                <p class="text-xs text-slate-400 mt-1">Envie suas escolhas pelo WhatsApp e consulte o investimento do projeto.</p>
+                            </div>
+                        </div>
+
+                        <button type="button" onclick="sendCustomWhatsAppQuote()" class="w-full md:w-auto bg-brand-coral hover:bg-brand-coralHover text-white px-8 py-4 rounded-xl font-bold text-sm shadow-xl shadow-brand-coral/20 flex items-center justify-center gap-2 transition-all hover:scale-105">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <span>Consultar Valores desta Configuração</span>
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="sobre" class="py-24 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                
+                <div>
+                    <!-- Visual Brand Display Box -->
+                    <div class="glass-card p-10 rounded-3xl border border-brand-border relative overflow-hidden text-center flex flex-col items-center justify-center">
+                        <div class="absolute inset-0 bg-brand-coral/5 pointer-events-none"></div>
+                        
+                        <!-- Recreated Logo Vector -->
+                        <svg class="w-32 h-32 mb-6" viewBox="0 0 100 100" fill="none">
+                            <path d="M 25 10 L 65 10 C 78 10 88 18 88 31 C 88 42 80 48 70 50 L 38 50 L 25 10 Z" fill="#FF4D38" />
+                            <path d="M 25 58 L 58 58 C 72 58 88 65 88 78 C 88 90 75 92 62 92 L 25 92 L 25 58 Z" fill="#FF4D38" />
+                            <path d="M 20 54 L 68 18 L 74 24 L 26 60 Z" fill="#0B0F17" />
+                        </svg>
+
+                        <h3 class="text-3xl font-extrabold text-white tracking-wider">BRISOLA</h3>
+                        <span class="text-sm font-bold tracking-[0.4em] text-brand-gold uppercase mt-1">A G Ê N C I A</span>
+
+                        <p class="text-xs text-slate-400 max-w-sm mt-6 leading-relaxed">
+                            Compromisso com estética refinada, tecnologia moderna e foco em gerar resultados reais para sua empresa.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <span class="text-brand-coral font-bold text-sm tracking-wider uppercase">Por Que Escolher a Brisola?</span>
+                    <h2 class="text-3xl sm:text-5xl font-extrabold text-white">Sua Marca em Outro Patamar Digital</h2>
+                    <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+                        A <strong>Brisola Agência</strong> desenvolve sites pensados para transmitir credibilidade e gerar oportunidades. Cuidamos do design, performance, segurança e experiência mobile para você focar no que importa: seu negócio.
+                    </p>
+                    
+                    <div class="space-y-4 pt-2">
+                        <div class="flex gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-brand-coral/10 text-brand-coral flex items-center justify-center shrink-0 font-bold">01</div>
+                            <div>
+                                <h4 class="text-white font-bold">Design Exclusivo e Único</h4>
+                                <p class="text-xs text-slate-400 mt-1">Sua empresa terá uma identidade visual profissional e marcante sem templates genéricos.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-brand-gold/10 text-brand-gold flex items-center justify-center shrink-0 font-bold">02</div>
+                            <div>
+                                <h4 class="text-white font-bold">100% Responsivo para Celulares</h4>
+                                <p class="text-xs text-slate-400 mt-1">Desenvolvemos experiências responsivas para smartphones, tablets, notebooks e monitores, priorizando clareza e usabilidade em cada tela.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-brand-coral/10 text-brand-coral flex items-center justify-center shrink-0 font-bold">03</div>
+                            <div>
+                                <h4 class="text-white font-bold">Suporte e Acompanhamento</h4>
+                                <p class="text-xs text-slate-400 mt-1">Prestamos suporte contínuo para manter seu site sempre seguro e atualizado.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="py-20 bg-brand-dark/70 border-t border-brand-border/40">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-brand-gold font-bold text-sm tracking-wider uppercase">Dúvidas Frequentes</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">Perguntas Frequentes</h2>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="glass-card rounded-xl border border-brand-border overflow-hidden">
+                    <button type="button" onclick="toggleFaq(1)" aria-expanded="false" aria-controls="faq-answer-1" id="faq-button-1" class="w-full text-left p-5 text-white font-bold text-sm sm:text-base flex justify-between items-center focus:outline-none">
+                        <span>Qual o prazo médio para a criação de um site?</span>
+                        <i id="faq-icon-1" class="fa-solid fa-chevron-down text-brand-coral transition-transform"></i>
+                    </button>
+                    <div id="faq-answer-1" role="region" aria-labelledby="faq-button-1" class="hidden p-5 pt-0 text-slate-400 text-xs sm:text-sm border-t border-slate-800/60 leading-relaxed">
+                        Landing Pages levam em média de 3 a 7 dias úteis. Sites institucionais e Lojas Virtuais costumam levar entre 10 e 20 dias úteis a partir do envio das informações básicas.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="glass-card rounded-xl border border-brand-border overflow-hidden">
+                    <button type="button" onclick="toggleFaq(2)" aria-expanded="false" aria-controls="faq-answer-2" id="faq-button-2" class="w-full text-left p-5 text-white font-bold text-sm sm:text-base flex justify-between items-center focus:outline-none">
+                        <span>O site funcionará bem no celular (mobile)?</span>
+                        <i id="faq-icon-2" class="fa-solid fa-chevron-down text-brand-coral transition-transform"></i>
+                    </button>
+                    <div id="faq-answer-2" role="region" aria-labelledby="faq-button-2" class="hidden p-5 pt-0 text-slate-400 text-xs sm:text-sm border-t border-slate-800/60 leading-relaxed">
+                        Sim, 100%! Desenvolvemos com metodologia Mobile-First. Seu site abrirá perfeitamente em smartphones, tablets, notebooks e monitores de alta resolução.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="glass-card rounded-xl border border-brand-border overflow-hidden">
+                    <button type="button" onclick="toggleFaq(3)" aria-expanded="false" aria-controls="faq-answer-3" id="faq-button-3" class="w-full text-left p-5 text-white font-bold text-sm sm:text-base flex justify-between items-center focus:outline-none">
+                        <span>Eu mesmo poderei atualizar as informações depois de pronto?</span>
+                        <i id="faq-icon-3" class="fa-solid fa-chevron-down text-brand-coral transition-transform"></i>
+                    </button>
+                    <div id="faq-answer-3" role="region" aria-labelledby="faq-button-3" class="hidden p-5 pt-0 text-slate-400 text-xs sm:text-sm border-t border-slate-800/60 leading-relaxed">
+                        Sim! Entregamos um painel administrativo intuitivo para você atualizar textos, fotos, produtos ou artigos sem precisar de conhecimentos técnicos.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/5527992768081?text=Olá!%20Estava%20olhando%20o%20portfólio%20da%20Brisola%20Agência%20e%20gostaria%20de%20tirar%20uma%20dúvida." 
+       target="_blank" 
+       aria-label="Falar com a Brisola Agência pelo WhatsApp" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-40 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl transition-transform hover:scale-110 active:scale-95 border-2 border-white/20">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 border-t border-brand-border/60 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <svg class="w-8 h-8" viewBox="0 0 100 100" fill="none">
+                            <path d="M 25 10 L 65 10 C 78 10 88 18 88 31 C 88 42 80 48 70 50 L 38 50 L 25 10 Z" fill="#FF4D38" />
+                            <path d="M 25 58 L 58 58 C 72 58 88 65 88 78 C 88 90 75 92 62 92 L 25 92 L 25 58 Z" fill="#FF4D38" />
+                            <path d="M 20 54 L 68 18 L 74 24 L 26 60 Z" fill="#0B0F17" />
+                        </svg>
+                        <span class="font-extrabold text-lg text-white">BRISOLA AGÊNCIA</span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Especialistas na criação de sites institucionais, lojas virtuais e landing pages focadas em conversão.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm mb-4">Navegação</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="#home" class="hover:text-brand-coral transition-colors">Início</a></li>
+                        <li><a href="#portfolio" class="hover:text-brand-coral transition-colors">Portfólio de Sites</a></li>
+                        <li><a href="#servicos" class="hover:text-brand-coral transition-colors">Nossos Serviços</a></li>
+                        <li><a href="#calculadora" class="hover:text-brand-coral transition-colors">Monte seu Projeto</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm mb-4">Contato Direto</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li class="flex items-center gap-2"><i class="fa-brands fa-whatsapp text-brand-coral"></i> (27) 99276-8081</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-envelope text-brand-gold"></i> contato@brisolaagencia.com.br</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm mb-4">Redes Sociais</h4>
+                    <div class="flex gap-3 text-base">
+                        <a href="https://www.instagram.com/brisolaagencia/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Brisola Agência" class="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-300 hover:text-brand-coral hover:border-brand-coral transition-colors">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+                <p>&copy; <span id="year">2026</span> Brisola Agência. Todos os direitos reservados.</p>
+                <p>Desenvolvido por <strong class="text-brand-coral">Brisola Agência</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Projects Database for Interactive Preview
+        const projectsData = [
+            {
+                title: "Clínica Vitalis",
+                category: "Site Institucional",
+                url: "https://clinicavitalis.com.br",
+                brand: "Clínica Vitalis Medicina",
+                heroTitle: "Sua Saúde em Primeiro Lugar",
+                heroDesc: "Atendimento médico humanizado com especialistas renomados e agendamento prático online.",
+                features: ["Agendamento via WhatsApp", "Corpo Médico Especializado", "Localização & Mapa Interativo"]
+            },
+            {
+                title: "Luxe Joias Elegance",
+                category: "E-commerce Premium",
+                url: "https://luxejoias.com.br",
+                brand: "Luxe Joias",
+                heroTitle: "Elegância e Sofisticação Exclusivas",
+                heroDesc: "Joias finas em ouro 18k e prata 925 com garantia vitalícia e frete grátis para todo o Brasil.",
+                features: ["Checkout Transparente", "Pagamento Pix com 10% OFF", "Catálogo Interativo"]
+            },
+            {
+                title: "Nexus CRM Software",
+                category: "Landing Page B2B",
+                url: "https://nexus-saas.com.br",
+                brand: "Nexus SaaS",
+                heroTitle: "Aumente suas Vendas em até 3x",
+                heroDesc: "O CRM de gestão de vendas definitivo para pequenas e médias empresas automatizarem resultados.",
+                features: ["Teste Grátis por 14 dias", "Integração com WhatsApp", "Dashboards em Tempo Real"]
+            },
+            {
+                title: "Oriente Advocacia",
+                category: "Site Corporativo",
+                url: "https://orienteadvocacia.com.br",
+                brand: "Oriente Advocacia",
+                heroTitle: "Soluções Jurídicas de Alta Qualidade",
+                heroDesc: "Assessoria jurídica especializada para empresas e pessoas físicas com foco na ética e eficiência.",
+                features: ["Consulta Online Direta", "Artigos e Blog Jurídico", "Atendimento LGPD"]
+            },
+            {
+                title: "Bistrô Sabor Gourmet",
+                category: "Gastronomia",
+                url: "https://saborgourmet.com.br",
+                brand: "Bistrô Sabor Gourmet",
+                heroTitle: "Uma Experiência Gastronômica Única",
+                heroDesc: "Pratos artesanais elaborados por chefs renomados em um ambiente aconchegante e sofisticado.",
+                features: ["Cardápio Digital QR Code", "Reserva de Mesas Instantânea", "Link iFood Integrado"]
+            },
+            {
+                title: "FitPulse Dashboard",
+                category: "Web App & Painel",
+                url: "https://fitpulse-dash.com.br",
+                brand: "FitPulse Fitness",
+                heroTitle: "Gestão Inteligente para Personal Trainers",
+                heroDesc: "Acompanhe a evolução física dos seus alunos, fichas de treino e pagamentos em um só lugar.",
+                features: ["Área de Membros Exclusiva", "Gráficos de Desempenho", "Notificações Automáticas"]
+            }
+        ];
+
+        // Set Current Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            mobileMenuBtn.setAttribute('aria-expanded', String(!mobileMenu.classList.contains('hidden')));
+            if (mobileMenu.classList.contains('hidden')) {
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            } else {
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-xmark');
+            }
+        });
+
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            });
+        });
+
+        // Portfolio Filters
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => {
+                    b.classList.remove('bg-brand-coral', 'text-white');
+                    b.classList.add('glass-card', 'text-slate-300');
+                });
+                btn.classList.add('bg-brand-coral', 'text-white');
+                btn.classList.remove('glass-card', 'text-slate-300');
+
+                const filter = btn.getAttribute('data-filter');
+
+                projectCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Interactive Modal Preview Functions
+        const previewModal = document.getElementById('preview-modal');
+        const previewViewport = document.getElementById('preview-viewport');
+        const modalProjectTitle = document.getElementById('modal-project-title');
+        const modalCategoryTag = document.getElementById('modal-category-tag');
+        const modalExternalLink = document.getElementById('modal-external-link');
+        const simBrandName = document.getElementById('sim-brand-name');
+        const simContent = document.getElementById('sim-content');
+
+        function openPreviewModal(index) {
+            const p = projectsData[index];
+            trackEvent('portfolio_view', { project_name: p.title, project_category: p.category });
+            modalProjectTitle.textContent = p.title;
+            modalCategoryTag.textContent = `Categoria: ${p.category}`;
+            modalExternalLink.href = p.url;
+            simBrandName.textContent = p.brand;
+
+            // Render simulated dynamic interactive content inside modal iframe replacement
+            simContent.innerHTML = `
+                <div class="py-12 text-center max-w-xl mx-auto space-y-4">
+                    <span class="inline-block px-3 py-1 rounded-full bg-brand-coral/20 text-brand-coral text-xs font-bold uppercase tracking-wider">${p.category}</span>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white leading-tight">${p.heroTitle}</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed">${p.heroDesc}</p>
+                    <div class="pt-4 flex justify-center gap-3">
+                        <button class="bg-brand-coral hover:bg-brand-coralHover text-white px-5 py-2.5 rounded-lg font-bold text-xs shadow-lg">Começar Agora</button>
+                        <button class="bg-slate-800 hover:bg-slate-700 text-slate-200 px-5 py-2.5 rounded-lg font-bold text-xs border border-slate-700">Saber Mais</button>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-8 border-t border-slate-800">
+                    ${p.features.map(f => `
+                        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center">
+                            <i class="fa-solid fa-circle-check text-brand-coral text-lg mb-2"></i>
+                            <h4 class="text-xs font-bold text-white">${f}</h4>
+                        </div>
+                    `).join('')}
+                </div>
+
+                <div class="bg-slate-900/60 p-6 rounded-2xl border border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 mt-6">
+                    <div>
+                        <h4 class="text-sm font-bold text-white">Gostou deste estilo para o seu site?</h4>
+                        <p class="text-xs text-slate-400">Podemos criar uma versão personalizada para o seu modelo de negócio.</p>
+                    </div>
+                    <a href="https://wa.me/5527992768081?text=Olá!%20Adorei%20o%20modelo%20do%20site%20${encodeURIComponent(p.title)}" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white text-xs font-bold px-4 py-2.5 rounded-lg flex items-center gap-2 shrink-0">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> Solicitar Igual
+                    </a>
+                </div>
+            `;
+
+            previewModal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+            setDeviceMode('desktop');
+        }
+
+        function closePreviewModal() {
+            previewModal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        function setDeviceMode(mode) {
+            const btnDesktop = document.getElementById('device-desktop');
+            const btnTablet = document.getElementById('device-tablet');
+            const btnMobile = document.getElementById('device-mobile');
+
+            [btnDesktop, btnTablet, btnMobile].forEach(btn => {
+                btn.classList.remove('bg-brand-coral', 'text-white');
+                btn.classList.add('text-slate-400');
+            });
+
+            previewViewport.className = '';
+
+            if (mode === 'desktop') {
+                previewViewport.className = 'preview-mode-desktop transition-all duration-300 bg-slate-900 rounded-lg shadow-2xl overflow-hidden flex flex-col';
+                btnDesktop.classList.add('bg-brand-coral', 'text-white');
+                btnDesktop.classList.remove('text-slate-400');
+            } else if (mode === 'tablet') {
+                previewViewport.className = 'preview-mode-tablet transition-all duration-300 bg-slate-900 shadow-2xl overflow-hidden flex flex-col my-auto';
+                btnTablet.classList.add('bg-brand-coral', 'text-white');
+                btnTablet.classList.remove('text-slate-400');
+            } else if (mode === 'mobile') {
+                previewViewport.className = 'preview-mode-mobile transition-all duration-300 bg-slate-900 shadow-2xl overflow-hidden flex flex-col my-auto';
+                btnMobile.classList.add('bg-brand-coral', 'text-white');
+                btnMobile.classList.remove('text-slate-400');
+            }
+        }
+
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && !previewModal.classList.contains('hidden')) {
+                closePreviewModal();
+            }
+        });
+
+        previewModal.addEventListener('click', (event) => {
+            if (event.target === previewModal) closePreviewModal();
+        });
+
+        // Budget Estimator / Configurator Script
+        const calcForm = document.getElementById('calc-form');
+
+        function getSelectedConfiguration() {
+            const selectedType = calcForm.querySelector('input[name="site_type"]:checked');
+            const checkedExtras = calcForm.querySelectorAll('input[name="extra"]:checked');
+
+            return {
+                selectedType: selectedType ? selectedType.value : '',
+                checkedExtras
+            };
+        }
+
+        function sendCustomWhatsAppQuote() {
+            const { selectedType, checkedExtras } = getSelectedConfiguration();
+
+            const extrasList = [];
+            checkedExtras.forEach(e => extrasList.push(e.value));
+
+            let message = `Olá Brisola Agência! Montei uma configuração pelo site da Brisola Agência:\n\n`;
+            message += `📌 *Tipo de Site:* ${selectedType || 'Não selecionado'}\n`;
+            message += `✨ *Recursos Adicionais:* ${extrasList.length > 0 ? extrasList.join(', ') : 'Nenhum extra'}\n\n`;
+            message += `Gostaria de consultar os valores desta configuração e entender o melhor formato para o meu projeto.`;
+
+            trackEvent('project_config_submitted', {
+                project_type: selectedType || 'Não selecionado',
+                extras: extrasList.join(', ')
+            });
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/5527992768081?text=${encodedMessage}`, '_blank', 'noopener,noreferrer');
+        }
+
+
+        // Camada de eventos: pronta para Google Tag Manager / GA4.
+        window.dataLayer = window.dataLayer || [];
+        function trackEvent(eventName, params = {}) {
+            window.dataLayer.push({ event: eventName, ...params });
+        }
+
+        document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+            link.addEventListener('click', () => trackEvent('whatsapp_click', {
+                link_text: (link.innerText || link.getAttribute('aria-label') || 'WhatsApp').trim()
+            }));
+        });
+
+        document.querySelectorAll('a[href*="instagram.com/brisolaagencia"]').forEach(link => {
+            link.addEventListener('click', () => trackEvent('instagram_click'));
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', () => {
+                const target = link.getAttribute('href');
+                if (target && target !== '#') trackEvent('cta_click', { target });
+            });
+        });
+
+        document.querySelectorAll('input[name="site_type"]').forEach(input => {
+            input.addEventListener('change', () => trackEvent('project_type_selected', {
+                project_type: input.value
+            }));
+        });
+
+        let projectConfigStarted = false;
+        calcForm.addEventListener('change', () => {
+            if (!projectConfigStarted) {
+                projectConfigStarted = true;
+                trackEvent('project_config_started');
+            }
+        });
+
+        // FAQ Accordion Toggle
+        function toggleFaq(index) {
+            const answer = document.getElementById(`faq-answer-${index}`);
+            const icon = document.getElementById(`faq-icon-${index}`);
+
+            if (answer.classList.contains('hidden')) {
+                document.getElementById(`faq-button-${index}`).setAttribute('aria-expanded', 'true');
+                answer.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                document.getElementById(`faq-button-${index}`).setAttribute('aria-expanded', 'false');
+                answer.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+    </script>
+</body>
+</html>
